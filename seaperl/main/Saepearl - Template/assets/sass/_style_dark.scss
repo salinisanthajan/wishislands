@@ -1,0 +1,54 @@
+/*--------------------------------------------------------------
+21. Dark Style
+----------------------------------------------------------------*/
+.cs_dark {
+  .cs_section_heading.cs_style_1 {
+    .cs_section_subtitle {
+      color: var(--accent);
+    }
+  }
+
+  .cs_site_header.cs_style_1 {
+    background-color: var(--gray);
+  }
+  .cs_primary_bg,
+  .cs_white_bg,
+  .cs_bottom_footer_wrap {
+    background-color: #121212;
+  }
+  .cs_ternary_bg {
+    background-color: #3b3b3b;
+  }
+  .cs_btn.cs_style_1.cs_color_1 {
+    background-color: var(--gray);
+    &:hover {
+      background-color: #fff;
+      color: var(--gray);
+    }
+  }
+  .cs_google_map.cs_style_1 iframe {
+    filter: grayscale(100%) invert(95%) contrast(140%);
+  }
+  .cs_review_box.cs_style_1 {
+    box-shadow: 0px 10px 25px 8px rgba(241, 241, 241, 0.04);
+  }
+  .cs_gallery_item.cs_style_3 .cs_gallery_item_hover {
+    background-color: rgba(27, 27, 27, 0.95);
+  }
+  .cs_bottom_footer {
+    border-top: 1px solid #2f2f2f;
+  }
+  .cs_list.cs_style_3 li img,
+  .cs_iconbox.cs_style_4 .cs_iconbox_icon img,
+  .cs_author_card .cs_author_meta img {
+    filter: brightness(0) invert(1);
+  }
+  .cs_about_feature_list_1 li,
+  .cs_list.cs_style_2 li,
+  .cs_card.cs_style_7 {
+    border-color: var(--border);
+  }
+  .cs_form.cs_style_4.cs_type_6 .cs_form_item {
+    background-image: url('data:image/svg+xml;utf8,<svg width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.00002 5C4.88377 5 4.76741 4.95927 4.67866 4.87792L0.13321 0.711272C-0.0444033 0.54846 -0.0444033 0.284816 0.13321 0.122109C0.310823 -0.0405988 0.598436 -0.0407029 0.775936 0.122109L5.00002 3.99417L9.22411 0.122109C9.40172 -0.0407029 9.68933 -0.0407029 9.86683 0.122109C10.0443 0.28492 10.0444 0.548565 9.86683 0.711272L5.32138 4.87792C5.23263 4.95927 5.11627 5 5.00002 5Z" fill="white"/></svg>');
+  }
+}

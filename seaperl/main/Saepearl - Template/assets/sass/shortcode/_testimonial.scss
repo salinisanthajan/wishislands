@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+  13. Testimonial
+----------------------------------------------------------------*/
+.cs_testimonial_1_wrap {
+  .cs_testimonial_quote {
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translateX(-50%);
+    @media (max-width: 575px) {
+      svg {
+        max-width: 400px;
+      }
+    }
+    @media (max-width: 400px) {
+      svg {
+        max-width: 320px;
+      }
+    }
+  }
+}
+.cs_testimonial.cs_style_1,
+.cs_testimonial.cs_style_2 {
+  .cs_testimonial_avatar {
+    img {
+      height: 110px;
+      width: 110px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: inline;
+      flex: none;
+    }
+  }
+}
+.cs_testimonial.cs_style_1 {
+  .cs_rating {
+    transform: scale(1.43);
+  }
+}
+.cs_testimonial.cs_style_2 {
+  .cs_testimonial_avatar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+.cs_testimonial.cs_style_3 {
+  border: 1px solid var(--border);
+  padding: 35px 35px 50px 35px;
+  background-color: var(--web-wash);
+  @media (max-width: 991px) {
+    padding: 35px 25px 50px 25px;
+  }
+  .cs_testimonial_avatar {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    img {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .cs_quote_icon {
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+  }
+}

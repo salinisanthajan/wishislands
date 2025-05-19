@@ -1,0 +1,236 @@
+/*
+Theme Name:  Victoria Luxury Resort & Spa HTML template
+Theme URI: http://victoria-spa.themexriver.com/
+Author: themexriver
+Description: Victoria Luxury Resort & Spa HTML template
+Version: 1.0
+*/
+
+
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+#1	navbar
+#2	main
+	#2.1 intro
+	#2.2 html-structure
+
+--------------------------------------------------------------*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 27px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+p {
+	margin-bottom: 13px;
+	color: #767676;
+	line-height: 25px;
+}
+
+.padding {
+	padding: 50px 0;
+}
+
+
+h2 + p {
+	margin-bottom: 40px;
+}
+
+mark {
+	background: yellow;
+}
+
+ul li.active {
+	font-weight: bold;
+}
+a:hover,
+a:focus {
+	background: none !important;
+}
+
+
+/*--------------------------------------------------------------
+#1	navbar
+--------------------------------------------------------------*/
+.main-navigation {
+	padding: 0;
+}
+
+#navbar {
+	padding: 0 !important;
+}
+
+.navbar ul {
+	width: 240px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #85ad00;
+	z-index: 10;
+}
+
+.navbar ul h2 {
+	margin-top: 0;
+	margin-bottom: 50px;
+	padding: 30px 5px;
+	text-align: center;
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+}
+.navbar ul li {
+	 display: block;
+	 width: 100%;
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 10px 30px 10px 5px;
+	color: #fff;
+	text-align: right;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.navbar ul li:nth-child(2n) {
+	background: #719301;
+}
+
+.navbar ul li a:hover {
+	background: no-repeat;
+	font-weight: bold;
+}
+
+
+@media only screen and (max-width: 767px) {
+	#navbar {
+		position: absolute;
+		left: 0;
+		z-index: 10;
+		width: 100%;
+	}
+
+	.navbar ul {
+		width: 100%;
+		height: auto;
+		position: static;
+		z-index: 10;
+	}
+
+	.navbar ul li a {
+		text-align: center;
+	}
+}
+
+.navbar-header button span {
+	background: red;
+	z-index: 20;
+}
+
+
+
+/*--------------------------------------------------------------
+#1	main
+--------------------------------------------------------------*/
+.main {
+	padding: 20px 100px 20px;
+}
+
+@media only screen and (max-width: 991px) {
+	.main {
+		padding: 20px 100px 20px 150px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.main {
+		padding: 20px;
+	}
+
+}
+
+
+
+
+/*--------------------------------------------------------------
+#2.1 intro
+--------------------------------------------------------------*/
+.intro {
+	padding: 50px 0 0;
+}
+.intro .create-info {
+	color: #989898;
+	margin-bottom: 50px;
+}
+
+.intro p {
+	text-align: justify;
+	margin-bottom: 13px;
+	color: #767676;
+	line-height: 25px;
+}
+
+.intro .thanks {
+	margin-top: 50px;
+	margin-bottom: 140px;
+}
+
+.intro .thanks span {
+	color: #000;
+	font-weight: bold;
+}
+
+
+
+/*--------------------------------------------------------------
+#2.2 html-structure
+--------------------------------------------------------------*/
+.html-structure {
+	padding: 40px 0;
+}
+
+.html-structure img {
+	width: 100%;
+}
+
+.html-structure h2 + p {
+	margin-bottom: 10px;
+}
+
+.html-structure .note {
+	margin-bottom: 30px;
+}
+
+
+#others mark {
+	display: block;
+}
+
+#others p {
+	padding: 25px 0 10px;
+}
+

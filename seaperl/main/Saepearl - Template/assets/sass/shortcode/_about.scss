@@ -1,0 +1,86 @@
+/*--------------------------------------------------------------
+  12. About
+----------------------------------------------------------------*/
+.cs_about_experience_text_1 {
+  position: absolute;
+  top: 50%;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg) translateY(50%);
+  right: 5%;
+  white-space: nowrap;
+  opacity: 0.2;
+  @media (max-width: 1600px) {
+    right: 2%;
+  }
+  @media (max-width: 1400px) {
+    right: 20px;
+  }
+  @media (max-width: 991px) {
+    position: initial;
+    transform: initial;
+    writing-mode: initial;
+    white-space: initial;
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .cs_about.cs_style_1,
+  .cs_about.cs_style_2 {
+    padding: 0 6%;
+  }
+}
+
+.cs_about.cs_style_2 {
+  h2 {
+    text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.cs_about.cs_style_3 {
+  .cs_about_img {
+    margin-top: -30px;
+    @media (max-width: 1400px) {
+      margin-top: -27px;
+    }
+    @media (max-width: 1400px) {
+      margin-top: -18px;
+    }
+  }
+}
+
+.cs_about.cs_style_4 {
+  @media (min-width: 992px) {
+    .cs_section_heading.cs_style_1 {
+      padding-right: 10%;
+    }
+  }
+}
+
+.cs_about.cs_style_5 {
+  .cs_about_right_text {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+}
+.cs_about_feature_list_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: calc(100% + 1px);
+  gap: 50px 0;
+  @media (max-width: 991px) {
+    gap: 30px 0;
+  }
+  li {
+    width: 33.333333%;
+    border-right: 1px solid var(--ternary);
+    padding: 0 15px;
+    &:last-child {
+      border-right: 0;
+    }
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+}
