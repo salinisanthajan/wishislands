@@ -7318,7 +7318,6 @@ section.no-padding {
   display: none;
   background: #111;
 }
-
 .loader {
   position: fixed;
   left: 0px;
@@ -7326,15 +7325,16 @@ section.no-padding {
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background: url("../images/page-loader.gif") 50% 50% no-repeat
-    rgb(249, 249, 249);
+  background: url("/images/beach.jpeg") 50% 50% no-repeat rgb(249, 249, 249);
+  background-size: 120px 120px; /* Optional: adjusts size */
 }
+
 
 .page-overlay {
   display: none;
   width: 120px;
   height: 120px;
-  background: url(../images/page-loader.gif) center no-repeat #fff;
+  background: url() center no-repeat #fff;
   border-radius: 10px;
   position: fixed;
   top: 0;
